@@ -1,0 +1,93 @@
+.course{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.title-course{
+    width: 100%;
+    max-width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-section-middle{
+    margin: 50px 0;
+}
+
+
+.card-course{
+    max-width: 45%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.search-course{
+    display: flex;
+    justify-content: right;
+    margin: 10px 0;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    background-color: white;
+    padding: 12px 10px;
+    border-radius: 20px;
+}
+
+.search-input {
+    margin: 0 5px;
+    border: none;
+}
+
+.search-form:focus-within {
+    box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+    -webkit-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+    -moz-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+}
+
+.btn-search{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.btn-search:hover p{
+    background-color: red;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.list-item-pagination{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item-pagination .page-link{
+    margin: 0 5px;
+    padding: 15px 20px;
+    border-radius: 7px;
+    background-color: white;
+    color: blue;
+}
+
+.page-link:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+    -webkit-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+    -moz-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+}
+
+.active-page-link{
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+    -webkit-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+    -moz-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+}

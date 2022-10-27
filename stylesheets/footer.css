@@ -1,0 +1,15 @@
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.column-footer{
+    padding: 10px;
+    width: 25%;
+}
+
+.list-item-footer{
+    font-size: 15px;
+}

@@ -1,0 +1,97 @@
+.modal {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 0.85);
+
+  position: fixed;
+  top: 0;
+  z-index: 98;
+}
+
+.modal-body{
+  display: block;
+  justify-content: space-between;
+
+  width: 500px;
+  padding: 40px;
+
+  background-color: #f4f4f4;
+  color: #152C5B;
+  border-radius: 10px;
+}
+
+.input-form{
+  width: 100%;
+}
+
+.input-form label, input, select {
+  display:block;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none !important;
+}
+
+.input-form label, input, select:focus {
+  outline: none !important;
+}
+
+.input-form label {
+  margin-top: 10px;
+}
+
+.input-form input, select {
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px 0;
+  color: #5E6687;
+  box-sizing: border-box;
+}
+
+.modal iframe{
+  border-radius: 20px;
+}
+
+.combo-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.combo-form .input-form{
+  width: 48%;
+}
+
+.form-personal-data{
+  margin-top: 30px;
+}
+
+.btn-close-modal {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 24px;
+  color: white;
+}
+
+.btn-close-modal:hover {
+  color: red;
+}
+
+.btn-modal{
+  display: flex;
+  justify-content: end;
+  margin: 20px 0;
+}
+
+.btn-modal button{
+  transition: 0s;
+}
+
