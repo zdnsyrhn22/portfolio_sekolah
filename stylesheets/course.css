@@ -3,22 +3,41 @@
     margin-bottom: 100px;
 }
 
-.title-course{
-    width: 100%;
-    max-width: 60%;
-    text-align: center;
-    margin-bottom: 50px;
-}
 
-.title-section-middle{
-    margin: 50px 0;
+.course .content-section{
+    flex-wrap: wrap;
 }
 
 
 .card-course{
-    max-width: 45%;
-    width: 100%;
     flex-direction: row;
+    flex: 33%;
+}
+
+@media (max-width: 1024px) {
+    .card-course{
+        flex: 100%;
+    }
+      
+}
+
+@media (max-width: 768px) {
+    .card-course{
+        flex-wrap: wrap;
+        flex: 100%;
+    }
+
+    .card-course .card-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .card-course .card-title {
+        margin: 0;
+        margin-top: 20px;
+      }
+      
 }
 
 .search-course{

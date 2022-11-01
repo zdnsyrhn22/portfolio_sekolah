@@ -25,48 +25,8 @@
   border-radius: 10px;
 }
 
-.input-form{
-  width: 100%;
-}
-
-.input-form label, input, select {
-  display:block;
-  text-transform: capitalize;
-  font-size: 15px;
-  font-weight: 500;
-  outline: none !important;
-}
-
-.input-form label, input, select:focus {
-  outline: none !important;
-}
-
-.input-form label {
-  margin-top: 10px;
-}
-
-.input-form input, select {
-  width: 100%;
-  padding: 15px 10px;
-  border-radius: 10px;
-  border: none;
-  margin: 5px 0;
-  color: #5E6687;
-  box-sizing: border-box;
-}
-
 .modal iframe{
   border-radius: 20px;
-}
-
-.combo-form{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.combo-form .input-form{
-  width: 48%;
 }
 
 .form-personal-data{

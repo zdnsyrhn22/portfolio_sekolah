@@ -1,216 +1,339 @@
 /* hero section */
-.container-hero{
-    padding-left: 10rem;
+.container-hero {
+  padding-left: 10rem;
 }
 
-.hero{
-    display: flex;
-    flex-direction: row-reverse;
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 70px;
+  gap: 20px;
 }
 
-.hero img{
+.hero img {
+  width: 100%;
+  height: 100%;
+  max-width: 65%;
+  max-height: 750px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 35%;
+}
+
+.hero-button {
+  display: flex;
+  margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+  .hero-content {
+    width: 40%;
+    margin: auto 0;
+  }
+
+  .hero img {
     width: 100%;
     height: 100%;
-    max-width: 65%;
+    max-width: 60%;
     max-height: 750px;
     object-fit: cover;
     object-position: center;
+  }
 }
 
-.hero-content{
-    width: 35%;
-    margin: auto 0 ;
-    padding: 0 20px;
+@media (max-width: 1024px) {
+  .container-hero {
+    padding: 0 5rem;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero img {
+    max-width: 100%;
+  }
+
+  .hero-content {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .hero-button {
+    justify-content: center;
+  }
 }
 
-.hero-button{
-    margin-top: 30px;
+@media (max-width: 768px) {
+  .container-hero {
+    padding: 0 2rem;
+  }
 }
 
 /* companies section */
 
-.companies{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 100px;
+.companies {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 
-.title-companies{
-    text-align: center;
-    color: #5E6687;
+.title-companies {
+  text-align: center;
+  color: #5e6687;
 }
 
-.icon-companies{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.icon-companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-.icon-companies img{
-    width: 100%;
-    height: 100%;
-    max-width: 200px;
-    max-height: 100px;
-    object-fit: cover;
-    object-position: center;
-    margin-top: 15px;
-    filter: grayscale(100%);
-    opacity: 80%;
+.icon-companies img {
+  flex: 1 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 100px;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%);
+  opacity: 80%;
+}
+
+@media (max-width: 1024px) {
+  .companies {
+    display: none;
+  }
 }
 
 /* our learners section */
-
-.our-learners{
-    display: flex;
-    margin: 100px 0;
-    flex-direction: column;
+.our-learners {
+  display: flex;
+  margin: 100px 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.card-our-learners{
-    width: 300px;
-    height: 150px;
+.card-our-learners {
+  flex: 1 30%;
+  min-width: 150px;
 }
 
 /* benefit section */
-.benefit{
-    display: flex;
-    flex-direction: row;
+.benefit {
+  display: flex;
+  flex-direction: row;
 }
 
-.benefit-image{
-    width: 100%;
-    height: 100%;
-    max-width: 50%;
-    max-height: 650px;
+.benefit-image {
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+  max-height: 650px;
 }
 
-.benefit-content{
-    display: flex;
+.benefit-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.benefit-button {
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .benefit {
     flex-direction: column;
-    justify-content: center;
-    margin-left: 50px;
+  }
+  .benefit-image {
+    max-width: 100%;
+  }
+  .benefit-content {
+    margin: 0;
+    margin-top: 20px;
+  }
 }
 
-.benefit-button{
-    margin-top: 10px;
+@media (max-width: 768px) {
 }
 
 /* roadmap */
-.roadmap-dev{
-    margin: 100px 0 ;
+.roadmap-dev {
+  margin: 100px 0;
 }
 
-.card-roadmap-dev{
-    z-index: 2;
-    max-width: 20%;
+.roadmap-dev .content-section {
+  flex-wrap: wrap;
 }
 
-.card-roadmap-dev:hover{
-    background-image: url("../asset/img/pattern.png");
-    box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
-    -webkit-box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
-    -moz-box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
-    z-index: 0;
+.card-roadmap-dev {
+  z-index: 2;
+  flex: 1 20%;
+  min-width: 250px;
+  transition: 0.3s;
 }
 
-.card-roadmap-dev:hover a{
-    color: white;
+.roadmap-dev .title-section {
+  margin-bottom: 20px;
 }
 
-.card-roadmap-dev:hover p{
-    color: white;
+.card-roadmap-dev:hover {
+  background-image: url("../asset/img/pattern.png");
+  box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
+  -webkit-box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
+  -moz-box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
+  z-index: 0;
+}
+
+.card-roadmap-dev:hover a {
+  color: white;
+}
+
+.card-roadmap-dev:hover p {
+  color: white;
 }
 
 /* popular course section */
 
-.pop-course{
-    margin: 100px 0 ;
+.pop-course {
+  margin: 100px 0;
 }
 
-.pop-course-link:hover{
-    color: #5E6687;
+.pop-course .title-section {
+  margin-bottom: 20px;
 }
 
-.card-pop-course{
-    max-width: 45%;
-    flex-direction: row;
+.pop-course-link:hover {
+  color: #5e6687;
+}
+
+.card-pop-course {
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .card-pop-course {
+    flex-wrap: wrap;
+    min-width: 150px;
+  }
+  .card-pop-course .card-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card-pop-course .card-body {
+    margin: 0;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
 }
 
 /* email */
-.email{
-    margin: 100px 0 ;
+.email {
+  margin: 100px 0;
 }
 
-.card-email{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+.card-email {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 
-    background-image: url("../asset/img/pattern.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    height: 500px;
-    width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%);
+  background-image: url("../asset/img/pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 500px;
+  width: 100%;
+  max-width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%);
+}
+
+.card-email-body {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
 }
 
 .card-email h2 {
-    color: white;
+  color: white;
 }
 
 .card-email p {
-    color: white;
+  color: white;
 }
 
-
-.form-email{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: white;
-    padding: 10px 15px;
-    width: 100%;
-    max-width: 450px;
-    border-radius: 100px;
+.form-email {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 100px;
 }
 
-.input-email{
-    width: 100%;
-    font-size: 15px;
-    margin: 0 10px;
-    border: none;
-    font-weight: 500;
-    color: #5E6687;
+.input-email {
+  width: 100%;
+  font-size: 15px;
+  margin: 0 10px;
+  border: none;
+  font-weight: 500;
+  color: #5e6687;
 }
 
-.input-email:hover{
-    border: none;
+.input-email:hover {
+  border: none;
 }
 
-.input-email:focus{
-    outline: none !important;
+.input-email:focus {
+  outline: none !important;
 }
 
-.btn-email{
-    background-color: #2447f9;
-    color: white;
-    padding: 15px;
-    margin: 0;
-    border-radius: 30px;
-    width: 150px;
-    transition: 0.3s;
+.btn-email {
+  background-color: #2447f9;
+  color: white;
+  padding: 15px;
+  margin: 0;
+  border-radius: 30px;
+  max-width: 150px;
+  width: 100%;
+  transition: 0.3s;
 }
 
-.btn-email:hover{
-    transition: 0.3s;
-    box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
-    -webkit-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
-    -moz-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
+.btn-email:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 0px 3.7px rgba(36, 71, 249, 0.3);
+  -webkit-box-shadow: 0px 0px 0px 3.7px rgba(36, 71, 249, 0.3);
+  -moz-box-shadow: 0px 0px 0px 3.7px rgba(36, 71, 249, 0.3);
+}
+
+@media (max-width: 768px) {
+  .card-email {
+    clip-path: none;
+  }
 }

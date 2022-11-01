@@ -1,0 +1,148 @@
+/* hero */
+.hero-about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    width: 100%;
+    height: 700px;
+    background-image: url("../asset/img/pattern.png");
+}
+
+.hero-about .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    height: 50%;
+}
+
+.hero-about .title-section {
+    width: 65%;
+}
+
+.hero-about span{
+    color: rgb(173, 193, 230);
+}
+
+.hero-about .content-section{
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.hero-about .content-section img{
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    -moz-filter: brightness(90%);
+
+    border-radius: 20px 20px 0 0;
+}
+
+.hero-about .title-section h2 , .hero-about .title-section p{
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    .hero-about .title-section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-about .content-section{
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-about{
+        justify-content: center;
+    }
+    .hero-about .content-section{
+        display: none;
+    }
+}
+
+/* our-story */
+.our-story{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-story .content-section{
+    flex-direction: column;
+    width: 70%;
+    gap: 0;
+}
+
+.our-story .content-section p{
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .our-story .content-section{
+        width: 100%;
+    }
+}
+
+/* visi misi */
+
+@media (max-width: 1024px) {
+    .visi-misi .card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .visi-misi .card {
+        width: 100%
+    }
+}
+
+/* our team */
+.our-team{
+    margin: 100px 0;
+}
+
+.our-team .card{
+    align-items: center;
+}
+
+.our-team .card-image{
+    max-width: auto;
+    height: auto;
+}
+
+.our-team .card-body{
+    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.our-team .card-title{
+    margin: 0;
+}
+.our-team .card-text{
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .our-team .card-image{
+        width: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .visi-misi .card {
+        width: 100%
+    }
+}

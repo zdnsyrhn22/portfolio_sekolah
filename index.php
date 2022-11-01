@@ -1,84 +1,6 @@
 <?php
 require('databases/courses_data.php');
-
-$image_companies = [
-  '/portfolio_sekolah/asset/img/companies/bibit.png',
-  '/portfolio_sekolah/asset/img/companies/gojek.png',
-  '/portfolio_sekolah/asset/img/companies/tokopedia.png',
-  '/portfolio_sekolah/asset/img/companies/bca.png',
-  '/portfolio_sekolah/asset/img/companies/microsoft.png',
-  '/portfolio_sekolah/asset/img/companies/traveloka.png'
-];
-
-$our_learners = [
-  [
-    'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-    'title' => "No.1 learning platform accross indonesia",
-  ],
-  [
-    'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-    'title' => "No.1 learning platform accross indonesia",
-  ],
-  [
-    'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-    'title' => "No.1 learning platform accross indonesia",
-  ],
-  [
-    'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-    'title' => "No.1 learning platform accross indonesia",
-  ],
-];
-
-$list_benefit = [
-  'lorem ipsum',
-  'lorem ipsum',
-  'lorem ipsum',
-  'lorem ipsum',
-  'lorem ipsum',
-];
-
-$roadmap = [
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-  [
-    'title' => 'Frontend',
-    'text' => 'Step by step guide to becoming a frontend developer in 2022',
-    'link' => '/'
-  ],
-];
+require('databases/home_data.php');
 
 ?>
 
@@ -86,6 +8,7 @@ $roadmap = [
 <html lang="en">
 
 <head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link rel="stylesheet" href="stylesheets/style.css" />
   <link rel="stylesheet" href="stylesheets/navbar.css" />
   <link rel="stylesheet" href="stylesheets/home.css" />
@@ -102,7 +25,7 @@ $roadmap = [
   <!-- hero -->
   <div class="container-hero">
     <div class="hero">
-      <img src="/portfolio_sekolah/asset/img/default.jpg" alt="" />
+      <img src="/portfolio_sekolah/asset/img/default.jpg" alt="hero-img" />
       <div class="hero-content">
         <h1 class="hero-title">A New Way of Digital Literacy</h1>
         <p class="hero-text">
@@ -126,7 +49,7 @@ $roadmap = [
       <h5 class="title-companies">Trusted by several unicorn companies</h5>
       <div class="icon-companies">
         <?php foreach ($image_companies as $row) : ?>
-          <img src="<?= $row ?>" alt="" />
+          <img src="<?= $row ?>" alt="img-companies" />
         <?php endforeach; ?>
       </div>
     </div>
@@ -134,16 +57,18 @@ $roadmap = [
     <!--  our learners -->
     <div class="our-learners" id="our-learners">
       <div class="title-section-middle">
-        <h2>we have best teachers & curriculumn for our learners</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore
-          iure veritatis nam eum, aliquam harum rem repellendus.
-        </p>
+        <div class="title">
+          <h2>we have best teachers & curriculumn for our learners</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore
+            iure veritatis nam eum, aliquam harum rem repellendus.
+          </p>
+        </div>
       </div>
       <div class="content-section">
         <?php foreach ($our_learners as $row) : ?>
           <div class="card card-our-learners">
-            <img src="<?= $row['img'] ?>" class="card-icon" alt="" width="100px" height="100px" />
+            <img src="<?= $row['img'] ?>" class="card-icon" alt="icon-our-learners" />
             <h5 class="card-title"><?= $row['title'] ?></h5>
           </div>
         <?php endforeach; ?>
@@ -226,13 +151,15 @@ $roadmap = [
     <!-- email -->
     <div class="email">
       <div class="card-email">
-        <h2>enter your email to get the latest news</h2>
-        <p>you will get the latest notification about the latest school news</p>
+        <div class="card-email-body">
+          <h2>enter your email to get the latest news</h2>
+          <p>you will get the latest notification about the latest school news</p>
 
-        <form action="" method="POST" class="form-email">
-          <input class="input-email" type="text" name="email" id="email" placeholder="enter your email address">
-          <button class="btn btn-email" type="reset">submit</button>
-        </form>
+          <form action="" method="POST" class="form-email">
+            <input class="input-email" type="text" name="email" id="email" placeholder="enter your email address">
+            <button class="btn btn-email" type="reset">submit</button>
+          </form>
+        </div>
 
       </div>
     </div>
@@ -240,10 +167,9 @@ $roadmap = [
   </div>
 
   <!-- footer -->
-  <?php include "components/footer.php" ?>
+  <?php include 'components/footer.php' ?>
 
 </body>
-
 
 <?php include "components/modal.php" ?>
 

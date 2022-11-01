@@ -5,22 +5,65 @@
 
 .navbar-nav{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     vertical-align: middle;
     overflow: hidden;
     display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0 10px;
 }
 
 .nav-item{
-    padding: 20px;
     margin: auto;
     vertical-align: middle;
     align-items: center;
+}
+
+.nav-item .active{
+    color: #2447f9;
+}
+
+.nav-link{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #152C5B;
+}
+
+.nav-link:hover{
+    color: #2447f9;
 }
 
 .nav-btn{
     margin: auto;
     vertical-align: middle;
     align-items: center;
+}
+
+.navbar-ham{
+    display: none;
+}
+
+.navbar-ham .btn{
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.navbar-ham .btn i{
+    font-size: 24px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .navbar-nav{
+        display: none;
+    }
+
+    .navbar-ham{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

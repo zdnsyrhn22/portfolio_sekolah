@@ -6,6 +6,7 @@ require('../databases/courses_data.php');
 <html lang="en">
 
 <head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link rel="stylesheet" href="/portfolio_sekolah/stylesheets/style.css" />
   <link rel="stylesheet" href="/portfolio_sekolah/stylesheets/navbar.css" />
   <link rel="stylesheet" href="/portfolio_sekolah/stylesheets/course.css" />
@@ -23,10 +24,11 @@ require('../databases/courses_data.php');
   <div class="container">
     <div class="course">
       <div class="title-section-middle">
-
-        <h2>Courses</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat id voluptatum nobis sequi quam
-          repudiandae exercitationem et.</p>
+        <div class="title">
+          <h2>Courses</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat id voluptatum nobis sequi quam
+            repudiandae exercitationem et.</p>
+        </div>
       </div>
 
       <div class="search-course">
