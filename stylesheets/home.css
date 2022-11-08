@@ -6,7 +6,6 @@
 .hero {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 70px;
   gap: 20px;
 }
 
@@ -84,13 +83,13 @@
 .companies {
   display: flex;
   flex-direction: column;
-  margin-top: 70px;
   margin-bottom: 100px;
 }
 
-.title-companies {
-  text-align: center;
+.companies .title-section-middle{
   color: #5e6687;
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
 .icon-companies {
@@ -99,15 +98,13 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
 }
 
 .icon-companies img {
-  flex: 1 50%;
   width: 100%;
-  height: 100%;
   max-width: 200px;
-  max-height: 100px;
+  height: auto;
+  
   object-fit: cover;
   object-position: center;
   filter: grayscale(100%);
@@ -128,29 +125,33 @@
   justify-content: center;
 }
 
+.our-learners .title-section-middle{
+  margin-bottom: 25px;
+}
+
 .card-our-learners {
   flex: 1 30%;
-  min-width: 150px;
+  min-width: 100px;
 }
 
 /* benefit section */
 .benefit {
   display: flex;
   flex-direction: row;
+  gap: 50px;
 }
 
 .benefit-image {
   width: 100%;
   height: 100%;
   max-width: 50%;
-  max-height: 650px;
 }
 
 .benefit-content {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 50px;
 }
 
 .benefit-button {
@@ -178,22 +179,22 @@
   margin: 100px 0;
 }
 
-.roadmap-dev .content-section {
-  flex-wrap: wrap;
-}
-
-.card-roadmap-dev {
-  z-index: 2;
-  flex: 1 20%;
-  min-width: 250px;
-  transition: 0.3s;
-}
-
 .roadmap-dev .title-section {
   margin-bottom: 20px;
 }
 
-.card-roadmap-dev:hover {
+.roadmap-dev .content-section {
+  flex-wrap: wrap;
+}
+
+.roadmap-dev .card{
+  z-index: 2;
+  flex: 1 1%;
+  min-width: 250px;
+  transition: 0.3s;
+}
+
+.roadmap-dev .card:hover {
   background-image: url("../asset/img/pattern.png");
   box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
   -webkit-box-shadow: 10px 10px 254px 19px rgba(36, 72, 249, 0.205);
@@ -201,11 +202,11 @@
   z-index: 0;
 }
 
-.card-roadmap-dev:hover a {
+.roadmap-dev .card:hover a {
   color: white;
 }
 
-.card-roadmap-dev:hover p {
+.roadmap-dev .card:hover p {
   color: white;
 }
 
@@ -213,6 +214,10 @@
 
 .pop-course {
   margin: 100px 0;
+}
+
+.pop-course .card-title{
+  line-height: 34px;
 }
 
 .pop-course .title-section {

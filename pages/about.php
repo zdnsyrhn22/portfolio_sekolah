@@ -63,7 +63,7 @@ require('../databases/about_data.php');
       <div class="content-section">
         <?php foreach ($mission as $row) : ?>
           <div class="card card-visi-misi">
-            <img src="<?= $row['img'] ?>" class="card-icon" alt="" width="100px" height="100px">
+            <img src="<?= $row['img'] ?>" class="card-icon" alt="icon-visi-misi">
             <h5 class="card-title"><?= $row['title'] ?></h5>
           </div>
         <?php endforeach ?>

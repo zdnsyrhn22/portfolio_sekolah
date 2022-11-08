@@ -1,11 +1,6 @@
-.container-contact{
-    padding-left: 10rem;
-}
-
 .hero-contact{
     display: flex;
     justify-content: space-between;
-    gap: 10%;
     margin-bottom: 100px;
 }
 
@@ -13,10 +8,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 10rem;
 }
 
 .hero-contact .btn-contact{
     margin-top: 20px;
+}
+
+.hero-contact .title-section p{
+    margin: 0;
 }
 
 .hero-contact .btn-contact button{
@@ -33,5 +33,18 @@
     height: 900px;
     border: none;
     border-radius: 20px;
-    filter: grayscale(80);
+}
+
+.contact-info{
+    margin: 100px 0 ;
+}
+
+.card-contact-info .card-title{
+    font-size: 15px;
+}
+.card-contact-info .card-subtitle{
+    margin: 0;
+}
+.card-contact-info .card-text{
+
 }

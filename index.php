@@ -46,10 +46,10 @@ require('databases/home_data.php');
 
     <!--  companies -->
     <div class="companies">
-      <h5 class="title-companies">Trusted by several unicorn companies</h5>
+      <h5 class="title-section-middle">Trusted by several unicorn companies</h5>
       <div class="icon-companies">
         <?php foreach ($image_companies as $row) : ?>
-          <img src="<?= $row ?>" alt="img-companies" />
+          <img src="<?= $row ?>" alt="icon-companies" />
         <?php endforeach; ?>
       </div>
     </div>
@@ -107,7 +107,7 @@ require('databases/home_data.php');
 
       <div class="content-section">
         <?php foreach ($roadmap as $row) : ?>
-          <div class="card card-roadmap-dev">
+          <div class="card">
             <div class="card-body">
               <h4 class="card-title card-title-roadmap">
                 <a href="<?= $row['link'] ?>" target="_blank" rel="noopener noreferrer"><?= $row['title'] ?></a>

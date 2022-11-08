@@ -3,15 +3,17 @@
     margin-bottom: 100px;
 }
 
-
 .course .content-section{
     flex-wrap: wrap;
 }
 
-
 .card-course{
     flex-direction: row;
-    flex: 33%;
+    flex: 43%;
+}
+
+.card-course .card-title{
+    line-height: 34px;
 }
 
 @media (max-width: 1024px) {
@@ -49,15 +51,21 @@
 .search-form{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
     width: 250px;
     background-color: white;
-    padding: 12px 10px;
+    padding: 12px 15px;
     border-radius: 20px;
 }
 
 .search-input {
     margin: 0 5px;
     border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5e6687;
+    text-transform: capitalize;
 }
 
 .search-form:focus-within {

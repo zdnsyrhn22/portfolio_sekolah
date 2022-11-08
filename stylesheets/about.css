@@ -94,6 +94,10 @@
 
 /* visi misi */
 
+.visi-misi .title-section-middle{
+    margin-bottom: 25px;
+}
+
 @media (max-width: 1024px) {
     .visi-misi .card {
         width: 40%;
@@ -124,6 +128,10 @@
     align-items: center;
     margin: 0;
     margin-top: 10px;
+}
+
+.our-team .title-section-middle{
+    margin-bottom: 25px;
 }
 
 .our-team .card-title{
