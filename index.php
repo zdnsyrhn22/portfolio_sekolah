@@ -155,10 +155,13 @@ require('databases/home_data.php');
           <h2>enter your email to get the latest news</h2>
           <p>you will get the latest notification about the latest school news</p>
 
-          <form action="" method="POST" class="form-email">
-            <input class="input-email" type="text" name="email" id="email" placeholder="enter your email address">
-            <button class="btn btn-email" type="reset">submit</button>
+          <form action="" method="POST">
+            <div class="form-email">
+              <input class="input-email" type="text" name="email" id="email" placeholder="enter your email address">
+              <button class="btn btn-email" type="reset">submit</button>
+            </div>
           </form>
+
         </div>
 
       </div>

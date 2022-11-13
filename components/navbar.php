@@ -13,7 +13,7 @@ $pages = $_SERVER['SCRIPT_NAME'];
         <a class="nav-link <?= ($pages == "/portfolio_sekolah/pages/courses.php") ? "active" : "" ?>" id="courses" href="/portfolio_sekolah/pages/courses.php">courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?= ($pages == "/portfolio_sekolah/pages/student.php") ? "active" : "" ?>" id="student" href="for-student">for student</a>
+        <a class="nav-link <?= ($pages == "/portfolio_sekolah/pages/student.php") ? "active" : "" ?>" id="student" href="#">for student</a>
       </li>
       <li class="nav-item">
         <a class="nav-link <?= ($pages == "/portfolio_sekolah/pages/about.php") ? "active" : "" ?>" id="about" href="/portfolio_sekolah/pages/about.php">about us</a>

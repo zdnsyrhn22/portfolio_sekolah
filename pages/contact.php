@@ -30,12 +30,12 @@
 
                 <div class="combo-form">
                     <div class="input-form">
-                        <label for="firstname">first name</label>
-                        <input type="text" id="firstname" name="firstname" placeholder="first name">
+                        <label for="firstname">firstname</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="firstname">
                     </div>
                     <div class="input-form">
                         <label for="lastname">last name</label>
-                        <input type="text" id="lastname" name="lastname" placeholder="last name">
+                        <input type="text" id="lastname" name="lastname" placeholder="lastname">
                     </div>
                 </div>
 
@@ -46,7 +46,7 @@
 
                 <div class="input-form">
                     <label for="phone-number">phone number</label>
-                    <input type="text" id="phone-number" name="phone-number" placeholder="+62(021) 000-0000">
+                    <input type="text" id="phone-number" name="phone-number" placeholder="02111223344">
                 </div>
 
                 <div class="input-form">

@@ -1,10 +1,17 @@
 /* footer */
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   gap: 20px;
+}
+.brand-footer img{
+  width: 100px;
+}
+.item-footer{
+  display: flex;
+  flex-direction: row;
 }
 
 .column-footer {
@@ -14,9 +21,6 @@ footer {
   flex: 17%;
 }
 
-.column-brand {
-  flex: 32%;
-}
 
 .list-item-footer {
   font-size: 15px;

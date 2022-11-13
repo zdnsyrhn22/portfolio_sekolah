@@ -44,12 +44,12 @@
             <div class="combo-form">
               <div class="input-form">
                 <label for="firstname">firstname</label>
-                <input type="text" name="firstname" id="firstname" placeholder="lorem ipsum" required>
+                <input type="text" name="firstname" id="firstname" placeholder="firstname" required>
               </div>
 
               <div class="input-form">
                 <label for="lastname">lastname</label>
-                <input type="text" name="lastname" id="lastname" placeholder="lorem ipsum" required>
+                <input type="text" name="lastname" id="lastname" placeholder="lastname" required>
               </div>
             </div>
 
@@ -60,12 +60,12 @@
 
             <div class="input-form">
               <label for="handphone">no handphone</label>
-              <input type="text" name="handphone" id="handphone" placeholder="lorem ipsum" required>
+              <input type="text" name="handphone" id="handphone" placeholder="081112233344" required>
             </div>
 
             <div class="input-form">
               <label for="email">email</label>
-              <input type="text" name="email" id="email" placeholder="lorem ipsum" required>
+              <input type="text" name="email" id="email" placeholder="you@company.com" required>
             </div>
 
           </div>
