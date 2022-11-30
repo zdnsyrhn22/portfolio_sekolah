@@ -44,12 +44,14 @@ require('../databases/courses_data.php');
           <div class="card card-course">
             <img class="card-image" src="/portfolio_sekolah/<?= $row['image'] ?>" alt="" />
             <div class="card-body">
-              <h4 class="card-title">
-                <?= $row['title'] ?>
-              </h4>
-              <p class="card-text">
-                <?= $row['text'] ?>
-              </p>
+              <div class="">
+                <h4 class="card-title">
+                  <?= $row['title'] ?>
+                </h4>
+                <p class="card-text">
+                  <?= $row['text'] ?>
+                </p>
+              </div>
               <div class="card-button">
                 <button class="btn btn-primary" id="btn-join" value="<?= $row['id'] ?>">enroll course</button>
               </div>

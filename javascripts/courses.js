@@ -22,7 +22,7 @@ searchInput.addEventListener("keyup", () => {
 
   courses.forEach((course) => {
     let title = course.querySelector(".card-title").innerText.toLowerCase();
-    if (title.indexOf(searchInput.value) > -1) {
+    if (title.match(searchInput.value)) {
       course.style.display = "";
     } else {
       course.style.display = "none";

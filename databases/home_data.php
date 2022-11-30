@@ -12,19 +12,19 @@ $image_companies = [
 $our_learners = [
     [
         'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-        'title' => "No.1 learning platform accross indonesia",
+        'title' => "No.1 Information Technology School Accross Indonesia",
     ],
     [
-        'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-        'title' => "No.1 learning platform accross indonesia",
+        'img' => "/portfolio_sekolah/asset/icon/graduated.png",
+        'title' => "The Number Of The Best Graduates Is More Than 1200 Students",
     ],
     [
-        'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-        'title' => "No.1 learning platform accross indonesia",
+        'img' => "/portfolio_sekolah/asset/icon/teacher.png",
+        'title' => "The Best Teacher With More Than 7 Years IT Experience",
     ],
     [
-        'img' => "/portfolio_sekolah/asset/icon/gold-medal.png",
-        'title' => "No.1 learning platform accross indonesia",
+        'img' => "/portfolio_sekolah/asset/icon/learning.png",
+        'title' => "The Curriculum Is Always Updated According To The Industry",
     ],
 ];
 
@@ -40,41 +40,41 @@ $roadmap = [
     [
         'title' => 'Frontend',
         'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'link' => 'https://roadmap.sh/frontend'
     ],
     [
-        'title' => 'Frontend',
-        'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'title' => 'Backend',
+        'text' => 'Step by step guide to becoming a backend developer in 2022',
+        'link' => 'https://roadmap.sh/backend'
     ],
     [
-        'title' => 'Frontend',
-        'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'title' => 'Android',
+        'text' => 'Step by step guide to becoming an android developer in 2022',
+        'link' => 'https://roadmap.sh/android'
     ],
     [
-        'title' => 'Frontend',
-        'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'title' => 'Flutter',
+        'text' => 'Step by step guide to becoming a flutter developer in 2022',
+        'link' => 'https://roadmap.sh/flutter'
     ],
     [
-        'title' => 'Frontend',
-        'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'title' => 'React',
+        'text' => 'Step by step guide to becoming a react developer in 2022',
+        'link' => 'https://roadmap.sh/react'
     ],
     [
-        'title' => 'Frontend',
-        'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'title' => 'Angular',
+        'text' => 'Step by step guide to becoming a angular developer in 2022',
+        'link' => 'https://roadmap.sh/angular'
     ],
     [
-        'title' => 'Frontend',
-        'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'title' => 'Vue',
+        'text' => 'Step by step guide to becoming a vue developer in 2022',
+        'link' => 'https://roadmap.sh/vue'
     ],
     [
-        'title' => 'Frontend',
-        'text' => 'Step by step guide to becoming a frontend developer in 2022',
-        'link' => '/'
+        'title' => 'Python',
+        'text' => 'Step by step guide to becoming a python developer in 2022',
+        'link' => 'https://roadmap.sh/python'
     ],
 ];

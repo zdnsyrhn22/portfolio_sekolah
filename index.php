@@ -23,9 +23,9 @@ require('databases/home_data.php');
   <?php include 'components/navbar.php' ?>
 
   <!-- hero -->
-  <div class="container-hero">
+  <div class="container">
     <div class="hero">
-      <img src="/portfolio_sekolah/asset/img/default.jpg" alt="hero-img" />
+      <img src="/portfolio_sekolah/asset/img/hero-img.png" alt="hero-img" />
       <div class="hero-content">
         <h1 class="hero-title">A New Way of Digital Literacy</h1>
         <p class="hero-text">
@@ -60,8 +60,7 @@ require('databases/home_data.php');
         <div class="title">
           <h2>we have best teachers & curriculumn for our learners</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore
-            iure veritatis nam eum, aliquam harum rem repellendus.
+            some of our advantages to create students who are creative, innovative, collaborative
           </p>
         </div>
       </div>
@@ -77,16 +76,13 @@ require('databases/home_data.php');
 
     <!-- benefit section -->
     <div class="benefit">
-      <img class="benefit-image" src="/portfolio_sekolah/asset/img/default.jpg" alt="" />
+      <img class="benefit-image" src="/portfolio_sekolah/asset/img/benefit.png" alt="" />
       <div class="benefit-content">
         <h2 class="benefit-title">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          benefits that will be obtained when becoming a decypher student
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sed
-          accusantium placeat quo, nihil autem. Quisquam fugiat accusamus
-          impedit eaque dolorem tenetur quam, quos voluptate, et ipsum placeat
-          quasi porro.x
+          You will get many benefits that are very useful for your hard skills and soft skills, because decypher does not only teach programming skills but supporting skills such as public speaking and presentation skills
         </p>
         <ul class="list-item">
           <?php foreach ($list_benefit as $row) : ?>
@@ -133,12 +129,14 @@ require('databases/home_data.php');
           <div class="card card-pop-course">
             <img class="card-image" src="<?= $course[$i]['image'] ?>" alt="" />
             <div class="card-body">
-              <h4 class="card-title">
-                <?= $course[$i]['title'] ?>
-              </h4>
-              <p class="card-text">
-                <?= $course[$i]['text'] ?>
-              </p>
+              <div class="">
+                <h4 class="card-title">
+                  <?= $course[$i]['title'] ?>
+                </h4>
+                <p class="card-text">
+                  <?= $course[$i]['text'] ?>
+                </p>
+              </div>
               <div class="card-button">
                 <button class="btn btn-primary" id="btn-join" value="<?= $course[$i]['id'] ?>">enroll course</button>
               </div>

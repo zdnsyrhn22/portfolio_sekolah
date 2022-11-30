@@ -67,7 +67,12 @@ hr {
 }
 
 .container {
-    padding: 0 10rem;
+	width: 100%;
+	max-width: 1440px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 @media (max-width: 1024px) {
@@ -256,6 +261,7 @@ hr {
 .card-body {
     display: flex;
     align-items: stretch;
+    justify-content: space-between;
     flex-direction: column;
     margin-left: 20px;
     color: white;
