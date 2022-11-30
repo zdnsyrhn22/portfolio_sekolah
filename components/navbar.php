@@ -5,7 +5,8 @@ $pages = $_SERVER['SCRIPT_NAME'];
 <header class="container">
   <nav class="navbar">
     <a class="navbar-brand" href=""><img src="/portfolio_sekolah/asset/img/default.jpg" alt="" width="100px"></a>
-    <ul class="navbar-nav">
+
+    <ul class="navbar-nav list-item">
       <li class="nav-item">
         <a class="nav-link <?= ($pages == "/portfolio_sekolah/index.php") ? "active" : "" ?>" id="home" aria-current="page" href="/portfolio_sekolah">home</a>
       </li>
@@ -22,15 +23,18 @@ $pages = $_SERVER['SCRIPT_NAME'];
         <a class="nav-link <?= ($pages == "/portfolio_sekolah/pages/contact.php") ? "active" : "" ?>" id="contact" href="/portfolio_sekolah/pages/contact.php">contact</a>
       </li>
     </ul>
-    <ul class="navbar-nav">
-      <li class="nav-btn"><button class="btn btn-primary" id="btn-join">Join Now</button></li>
+
+    <ul class="navbar-nav nav-btn-join">
+      <li class="nav-link"><button class="btn btn-primary" id="btn-join">Join Now</button></li>
     </ul>
 
-    <div class="navbar-ham">
-      <div class="btn">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-
+    <ul class="navbar-mobile">
+      <li class="nav-link"><button class="btn btn-primary" id="btn-navbar-mobile" value="false"><i class="fas fa-bars"></i></button></li>
+    </ul>
   </nav>
+
+
+
 </header>
+
+<script src="/portfolio_sekolah/javascripts/navbar.js"></script>

@@ -1,6 +1,7 @@
 <div class="modal" id="modal-youtube">
   <button class="btn btn-close-modal" id="btn-close-modal-video"><i class="fas fa-xmark"></i></button>
-  <iframe width="900px" height="500px" src="https://www.youtube.com/embed/gTMwx9-rKe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <iframe src="https://www.youtube.com/embed/gTMwx9-rKe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="modal" id="modal-form-course">
@@ -16,7 +17,7 @@
 
     <div class="modal-content">
 
-      <form action="/portfolio_sekolah/middlewares/whatsapp.php" method="POST" target="_blank" rel="noopener noreferrer">
+      <form action="/portfolio_sekolah/pages/whatsapp.php" method="POST" target="_blank" rel="noopener noreferrer">
 
         <div class="modal-form">
           <div class="input-form">
@@ -84,4 +85,5 @@
 
     </div>
   </div>
+
 </div>

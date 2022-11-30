@@ -61,11 +61,8 @@ require('../databases/courses_data.php');
 
       <div class="pagination">
         <ul class="list-item list-item-pagination">
-          <li class="page-item"><button class="btn page-link" value=""><i class="fas fa-chevron-left"></i></button></li>
-          <li class="page-item"><button class="btn page-link" value="">1</button></li>
-          <li class="page-item"><button class="btn page-link" value="">2</button></li>
-          <li class="page-item"><button class="btn page-link" value="">3</button></li>
-          <li class="page-item"><button class="btn page-link" value=""><i class="fas fa-chevron-right"></i></button></li>
+          <li class="page-item"><button class="btn page-link" value="first"><i class="fas fa-chevron-left"></i></button></li>
+          <li class="page-item"><button class="btn page-link" value="last"><i class="fas fa-chevron-right"></i></button></li>
         </ul>
       </div>
 

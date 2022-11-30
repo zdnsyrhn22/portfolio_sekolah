@@ -45,7 +45,13 @@
 .search-course{
     display: flex;
     justify-content: right;
-    margin: 10px 0;
+    margin: 25px 0;
+}
+
+@media (max-width: 768px) {
+    .search-course{
+        justify-content: center;
+    }
 }
 
 .search-form{
@@ -103,7 +109,7 @@
     color: blue;
 }
 
-.page-link:hover{
+.list-item-pagination .active{
     background-color: blue;
     color: white;
     box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
@@ -111,7 +117,7 @@
     -moz-box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
 }
 
-.active-page-link{
+.page-link:hover{
     background-color: blue;
     color: white;
     box-shadow: 0px 0px 0px 3.7px rgba(36,71,249,0.3);
