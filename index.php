@@ -82,7 +82,7 @@ require('databases/home_data.php');
           benefits that will be obtained when becoming a decypher student
         </h2>
         <p>
-          You will get many benefits that are very useful for your hard skills and soft skills, because decypher does not only teach programming skills but supporting skills such as public speaking and presentation skills
+          You will get many benefits that are very useful for your hard skills and soft skills, because decypher does not only teach IT skills but supporting skills such as public speaking and presentation skills
         </p>
         <ul class="list-item">
           <?php foreach ($list_benefit as $row) : ?>

@@ -25,8 +25,8 @@ require('../databases/about_data.php');
     <div class="container">
       <div class="title-section">
         <div class="title">
-          <h2><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.Consequatur sequi fuga </span>praesentium natus omnis voluptates.</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <h1>discover the cypher within and uncover it with <span>decypher</span></h1>
+          <p>Let the Beginning of Fantastic Journey Begins</p>
         </div>
       </div>
     </div>
@@ -45,7 +45,11 @@ require('../databases/about_data.php');
         <div class="title-section">
           <h3>our story</h3>
         </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi et ratione eligendi incidunt asperiores magnam ullam, fuga molestias accusantium sed consectetur dolores consequuntur, illo expedita, quo eius esse sit error pariatur dolorem consequatur inventore nemo quibusdam? Accusamus neque minus sequi omnis, perspiciatis animi. Iusto, ullam, voluptates ducimus consequuntur minima iure culpa labore doloribus quis iste illo vel quibusdam sint doloremque distinctio sed, placeat facere vero voluptatem! Ullam provident dolor blanditiis dolorum! Quia atque voluptate modi dicta, pariatur nisi officia perferendis ab eligendi unde nemo omnis ducimus non molestias voluptatem nesciunt vel dolore consequuntur tempora, voluptates eos. Aliquid sed assumenda dolorum!</p>
+        <p>
+          It start from the desire to improve the quality of Indonesian society in using technology that continues to grow,
+          Decypher exist for Indonesia and the world to discover and develop the hidden skills that exist within every soon-to-be IT Specialist.
+          Apply the potential within, Inspire the world with Decypher Academy.
+        </p>
       </div>
     </div>
 
@@ -55,8 +59,8 @@ require('../databases/about_data.php');
         <div class="title">
           <h2>vision & mission</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore
-            iure veritatis nam eum, aliquam harum rem repellendus.
+            Develop potential talents to collaborate and build innovation in the digital industry
+            with the work that inspires many.
           </p>
         </div>
       </div>
@@ -65,6 +69,7 @@ require('../databases/about_data.php');
           <div class="card card-visi-misi">
             <img src="<?= $row['img'] ?>" class="card-icon" alt="icon-visi-misi">
             <h5 class="card-title"><?= $row['title'] ?></h5>
+            <p class="card-desc"><?= $row['desc'] ?></p>
           </div>
         <?php endforeach ?>
       </div>
@@ -76,8 +81,7 @@ require('../databases/about_data.php');
         <div class="title">
           <h2>Our Team</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore
-            iure veritatis nam eum, aliquam harum rem repellendus.
+            Decypher Academy has a team consist of specialists in their respective fields. We welcomes talent from all kinds of different backgrounds which in turns will allows us to continue to grow and learn from each other.
           </p>
         </div>
       </div>
